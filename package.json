@@ -7,7 +7,13 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "np": "np --no-publish",
+    "postversion": "react-native-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvjiju/ReactNativeWithGitHubActions.git"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -26,7 +32,9 @@
     "babel-jest": "^29.6.3",
     "eslint": "^8.19.0",
     "jest": "^29.6.3",
+    "np": "^9.2.0",
     "prettier": "2.8.8",
+    "react-native-version": "^4.0.0",
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4"
   },
